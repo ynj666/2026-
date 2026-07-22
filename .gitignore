@@ -1,0 +1,12 @@
+car/keil/Objects/
+car/keil/Listings/
+*.o
+*.d
+*.axf
+*.hex
+*.map
+*.htm
+*.lnp
+*.dep
+*.iex
+*.uvguix.*
