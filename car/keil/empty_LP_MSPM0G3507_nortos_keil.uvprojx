@@ -466,6 +466,16 @@
               <FilePath>../task.h</FilePath>
             </File>
             <File>
+              <FileName>race.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../race.c</FilePath>
+            </File>
+            <File>
+              <FileName>race.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../race.h</FilePath>
+            </File>
+            <File>
               <FileName>motor.c</FileName>
               <FileType>1</FileType>
               <FilePath>../motor.c</FilePath>
@@ -564,6 +574,16 @@
               <FileName>control.h</FileName>
               <FileType>5</FileType>
               <FilePath>../control.h</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>../pid.h</FilePath>
             </File>
           </Files>
         </Group>

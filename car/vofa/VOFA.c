@@ -1,4 +1,4 @@
-#include "vofa.h"
+#include "VOFA.h"
 #include "uart.h"
 
 static void VOFA_SendByte(uint8_t byte)

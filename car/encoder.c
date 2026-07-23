@@ -10,8 +10,8 @@ typedef struct {                // 定义编码器硬件配置结构体（描述
 
 /* 换引脚、反方向只改这里 */
 static const Encoder_Config encoder_cfg[ENCODER_NUM] = {          // 编码器硬件配置表：四路编码器的引脚映射，常量存于Flash
-    {GPIOB, DL_GPIO_PIN_0, DL_GPIO_PIN_16, -1}, // ENC1_A ENC1_B   // 编码器1：A相=PB0，B相=PB16，方向取反（-1）
-    {GPIOB, DL_GPIO_PIN_1,  DL_GPIO_PIN_4,  1}, // ENC2_A ENC2_B   // 编码器2：A相=PB1，B相=PB4，方向为正（1）
+    {GPIOB, DL_GPIO_PIN_0, DL_GPIO_PIN_16,  1}, // ENC1_A ENC1_B   // 编码器1：A相=PB0，B相=PB16，方向为正（1）
+    {GPIOB, DL_GPIO_PIN_1,  DL_GPIO_PIN_4,  -1}, // ENC2_A ENC2_B   // 编码器2：A相=PB1，B相=PB4，方向为正（1）
     {GPIOB, DL_GPIO_PIN_10, DL_GPIO_PIN_11, 1}, // ENC3_A ENC3_B   // 编码器3：A相=PB10，B相=PB11，方向为正（1），反了改这里
     {GPIOB, DL_GPIO_PIN_22, DL_GPIO_PIN_21, 1}, // ENC4_A ENC4_B   // 编码器4：A相=PB22，B相=PB21，方向为正（1），反了改这里
 };                                                              // 配置表结束
